@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* Navbar elegante horizontal */
+/* Navbar elegante */
 .navbar {
   background-color: #222;
   color: #f5f1e8;
@@ -160,7 +160,7 @@ body {
   text-align: justify;
 }
 
-/* Gatos laterales en la página de inicio */
+/* Gatos laterales */
 .section-cat {
   flex-shrink: 0;
   display: flex;
@@ -177,7 +177,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Imagen de personas en cafetería, centrada */
+/* Imagen de la cafetería centrada */
 .section-image {
   text-align: center;
   margin: 3rem 0 4rem;
@@ -190,25 +190,13 @@ body {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
 }
 
+/* Título profesional debajo de la imagen */
 .image-caption {
   font-size: 1.2rem;
   color: #555;
   margin-top: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.5px;
-}
-
-/* Juegos: imagen de mesa de juegos */
-.games-image {
-  text-align: center;
-  margin: 2rem 0 3rem;
-}
-
-.games-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
 }
 
 /* Footer */
@@ -254,11 +242,6 @@ body {
   }
 
   .hero-content p {
-    font Middleton: 1.1rem;
-  }
-
-  .nav-links {
-    gap: 1.2rem;
-    font-size: 0.95rem;
+    font-size: 1.1rem;
   }
 }
